@@ -10,6 +10,15 @@ header {
     padding: 50px;
 }
 
+li {
+    list-style: none;
+    margin: 5px;
+}
+
+ul {
+    padding: 0;
+}
+
 header > div {
     display: flex;
     align-items: center;
@@ -19,21 +28,27 @@ header > div {
     width: 150px;
 }
 
-.menu > ul > li {
-    display: inline-block;
-    list-style: none;
-    margin-right: 5px;
-}
-
 header a {
     text-decoration: none;
 }
 
-.drop_menu {
+.menu > ul > li {
+    display: inline-block;
+}
+
+.tarif_menu,
+.conti_menu,
+.prodotti_menu,
+.azienda_menu,
+.aiuto_menu {
     position: relative;
 }
 
-.cont_menu {
+.drop_tarif_menu,
+.drop_conti_menu,
+.drop_prodotti_menu,
+.drop_azienda_menu,
+.drop_aiuto_menu {
     display: none;
     position: absolute;
     width: 115px;
@@ -41,16 +56,7 @@ header a {
     border: 1px solid white;
     box-shadow: 0 0 4px 0;
 }
-
-.cont_menu ul {
-    padding: 0;
-}
-
-.cont_menu ul li {
-    list-style: none;
-    margin: 5px;
-}
-    
+   
 header select {
     border: none;
 }
