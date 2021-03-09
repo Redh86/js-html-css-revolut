@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    width: 80%;
+    height: 300px;
+    padding: 50px;
+}
+
+header > div {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 150px;
+}
+
+.menu > ul > li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 5px;
+}
+
+header a {
+    text-decoration: none;
+}
+
+.drop_menu {
+    position: relative;
+}
+
+.cont_menu {
+    display: none;
+    position: absolute;
+    width: 115px;
+    height: 130px;
+    border: 1px solid white;
+    box-shadow: 0 0 4px 0;
+}
+
+.cont_menu ul {
+    padding: 0;
+}
+
+.cont_menu ul li {
+    list-style: none;
+    margin: 5px;
+}
+    
+header select {
+    border: none;
+}
+
+
